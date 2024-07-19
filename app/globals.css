@@ -1,0 +1,181 @@
+
+body {
+	background: whitesmoke;
+	margin:0px;
+}
+
+.container_header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 20px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: white;
+	margin-bottom: 30px;
+}
+
+.logo_img {
+	width: 100px;
+	height: 100px;
+	margin-right: 20px;
+}
+
+.text-center {
+	margin-top: 40px;
+}
+
+.nav1 {
+	display: flex;
+	align-items: center;
+}
+
+.nav_item {
+	display: flex;
+	align-items: center;
+	margin-right: 20px;
+	text-decoration: none;
+	color: inherit;
+	width:170px;
+	font-weight: bold;
+}
+.signout{
+	display: flex;
+	align-items: center;
+	margin-right: 20px;
+	text-decoration: none;
+	background-color:white;
+	border: none;
+	color: inherit;
+	width:170px;
+	font-weight: bold;
+}
+
+.nav_item img {
+	width: 40px;
+	height: 40px;
+	margin-right: 5px;
+}
+
+/*  dummydata css use*/
+
+.food-list-row {
+	display: flex;
+	flex-wrap: nowrap;
+	overflow-x: auto;
+}
+
+.food-item {
+	flex: 0 0 auto;
+	padding: 10px;
+	text-align: center;
+}
+
+.image-container_1 {
+	position: relative;
+	width: 150px;;
+	height: 150px;
+	margin: 0 auto;
+}
+
+
+.food-image {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 50%;
+	transition: transform 0.2s;
+}
+
+.food-image:hover {
+	transform: scale(1.1);
+}
+
+.food-item-title {
+	margin-top: 10px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+/* HeaderSlider.css */
+
+.image-carousel-container {
+	max-width: 1800px;
+	margin: auto;
+	padding: 20px;
+	background-color: #f0f0f0;
+	border-radius: 8px;
+}
+
+.carousel-image {
+	border-radius: 8px;
+	height: 400px;
+	object-fit: cover;
+	width: 100%;
+}
+.container {
+	padding-top: 0px;
+}
+
+.row {
+	flex-wrap: nowrap;
+}
+
+.top-images {
+	margin-bottom: 10px;
+}
+
+.card-img-top {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.home_imag {
+	flex-wrap: wrap;
+	margin-top: 50px;
+}
+
+.home_imag {
+	flex-wrap: wrap;
+}
+
+.hover-image {
+	width: 100%;
+	transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.image-container{
+	position: relative;
+	width: 350px;;
+	height: 210px;
+	margin: 0 auto;
+	margin-top:50px;
+}
+
+.hover-text {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	background-color: transparent;
+	opacity: 0;
+	transition: opacity 0.3s ease;
+}
+.image-container:hover .hover-image {
+	transform: scale(1.1);
+	opacity: 0.7;
+}
+.food-item {
+	margin-right: 20px;
+}
+.image {
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+}
